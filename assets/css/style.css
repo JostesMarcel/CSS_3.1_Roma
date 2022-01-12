@@ -99,8 +99,13 @@ section:nth-of-type(3) img {
 }
 .paralaxkid {
     background: url(../img/see.png) no-repeat center/cover;
+    background-color: rgba(0, 0, 0, 0.5)rgba(0, 0, 0, 0.5);
     background-attachment: fixed;
     height: 100%;
+}
+.paralaxkid img {
+    background-color: rgba(0, 0, 0, 0.5)rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 .paralax {
     background: black;
